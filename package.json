@@ -1,0 +1,41 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "curso udemy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint",
+    "test": "mocha",
+    "migrations:generate": "sequelize-cli migration:generate --name",
+    "migrations:run": "sequelize-cli db:migrate",
+    "migrations:revert": "sequelize-cli db:migrate:undo",
+    "migrations:delete": "sequelize-cli db:migrate:undo:all"
+  },
+  "author": "John Peñaloza",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3",
+    "sequelize-cli": "^6.6.3"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "faker": "^5.5.3",
+    "joi": "^17.13.3",
+    "pg": "^8.14.1",
+    "pg-hstore": "^2.3.4",
+    "save": "^2.9.0",
+    "sequelize": "^6.37.7"
+  }
+}
