@@ -95,13 +95,9 @@ npm run dev
 | Método                | Enpoint                     | Descripcíon                  |
 | --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/users                | Obtener todos los usuarios   |
-| --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/users/:id            | Obtener un usuario por id    |
-| --------------------- | --------------------------- | ---------------------------- |
 | POST                  | api/v1/users                | Crear un nuevo usuario       |
-| --------------------- | --------------------------- | ---------------------------- |
 | PATCH                 | api/v1/users                | Actualiza un usuario         |
-| --------------------- | --------------------------- | ---------------------------- |
 | DELETE                | api/v1/users/:id            | ELIMINAR un usuario          |
 
 ### Productos
@@ -109,13 +105,9 @@ npm run dev
 | Método                | Enpoint                     | Descripcíon                  |
 | --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/products             | Obtener todos los productos  |
-| --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/products/:id         | Obtener un productos por id  |
-| --------------------- | --------------------------- | ---------------------------- |
 | POST                  | api/v1/products             | Crear un nuevo productos     |
-| --------------------- | --------------------------- | ---------------------------- |
 | PATCH                 | api/v1/products             | Actualiza un producto        |
-| --------------------- | --------------------------- | ---------------------------- |
 | DELETE                | api/v1/products             | ELIMINAR un producto         |
 
 ### Categorias
@@ -123,13 +115,9 @@ npm run dev
 | Método                | Enpoint                     | Descripcíon                  |
 | --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/products             | Obtener todos los productos  |
-| --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/products/:id         | Obtener un productos por id  |
-| --------------------- | --------------------------- | ---------------------------- |
 | POST                  | api/v1/products             | Crear un nuevo productos     |
-| --------------------- | --------------------------- | ---------------------------- |
 | PATCH                 | api/v1/products             | Actualiza un producto        |
-| --------------------- | --------------------------- | ---------------------------- |
 | DELETE                | api/v1/products             | ELIMINAR un producto         |
 
 
@@ -138,13 +126,9 @@ npm run dev
 | Método                | Enpoint                     | Descripcíon                  |
 | --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/clients              | Obtener todos los clientes   |
-| --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/clients/:id          | Obtener un cliente por id    |
-| --------------------- | --------------------------- | ---------------------------- |
 | POST                  | api/v1/clients              | Crear un nuevo cliente       |
-| --------------------- | --------------------------- | ---------------------------- |
 | PATCH                 | api/v1/clients              | Actualiza un cliente         |
-| --------------------- | --------------------------- | ---------------------------- |
 | DELETE                | api/v1/clients              | ELIMINAR un cliente          |
 
 
