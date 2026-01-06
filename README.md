@@ -105,20 +105,20 @@ npm run dev
 | Método                | Enpoint                     | Descripcíon                  |
 | --------------------- | --------------------------- | ---------------------------- |
 | GET                   | api/v1/products             | Obtener todos los productos  |
-| GET                   | api/v1/products/:id         | Obtener un productos por id  |
-| POST                  | api/v1/products             | Crear un nuevo productos     |
+| GET                   | api/v1/products/:id         | Obtener un producto por id   |
+| POST                  | api/v1/products             | Crear un nuevo producto      |
 | PATCH                 | api/v1/products             | Actualiza un producto        |
 | DELETE                | api/v1/products             | ELIMINAR un producto         |
 
 ### Categorias
 
-| Método                | Enpoint                     | Descripcíon                  |
-| --------------------- | --------------------------- | ---------------------------- |
-| GET                   | api/v1/products             | Obtener todos los productos  |
-| GET                   | api/v1/products/:id         | Obtener un productos por id  |
-| POST                  | api/v1/products             | Crear un nuevo productos     |
-| PATCH                 | api/v1/products             | Actualiza un producto        |
-| DELETE                | api/v1/products             | ELIMINAR un producto         |
+| Método                | Enpoint                     | Descripcíon                   |
+| --------------------- | --------------------------- | ----------------------------- |
+| GET                   | api/v1/categories           | Obtener todos las categorias  |
+| GET                   | api/v1/categories/:id       | Obtener una categoria por id  |
+| POST                  | api/v1/categories           | Crear un nueva categorias     |
+| PATCH                 | api/v1/categories           | Actualiza una categorias      |
+| DELETE                | api/v1/categories           | ELIMINAR una categorias       |
 
 
 ### Clientes
